@@ -97,7 +97,7 @@ button {
 .info {
    display: flex;
    justify-content: space-between;
-   height: 120px;
+   min-height: 20px;
 }
 
 .info-header {
@@ -114,11 +114,13 @@ button {
  
 .image-grid {
    width: 1000px;
+   min-height: 400px;
    display: flex;
    justify-content: center;
    flex-wrap: wrap;
    flex-direction: row;
    align-items: center;
+   padding-bottom: 20px;
 }
  
 .image-grid-item {
@@ -134,3 +136,35 @@ button {
    height: 200px;
    object-fit: cover;
 }
+
+.quote-container {
+   display: flex;
+   justify-content: center;
+   background-color: #E5E7EB;
+}
+
+.quote {
+   width: 900px;
+   min-height: 200px;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   padding-top: 80px;
+   padding-bottom: 40px;
+}
+
+.quote-content {
+   font-size: 36px;
+   font-weight: 300;
+   font-style: italic;
+   color: #1F2937;
+}
+
+.quote-author {
+   text-align: right;
+   font-size: 24px;
+   margin-bottom: 50px;
+   color: #1F2937;
+   font-weight: 600;
+}
+
