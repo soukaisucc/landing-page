@@ -40,7 +40,7 @@ body {
 
 .hero {
    width: 1200px;
-   height: 400px;
+   height: 500px;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -63,6 +63,7 @@ body {
 button {
    padding: 8px 16px;
    border-radius: 8px;
+   border: none;
  }
 
 .signup {
@@ -71,7 +72,7 @@ button {
 }
 
 .banner {
-   padding: 100px;
+   padding-bottom: 100px;
 }
 
 .banner-image {
@@ -85,5 +86,51 @@ button {
 
 .col-two {
    width: 60%;
-   margin-right: -120px;
+   margin-right: -220px;
+}
+
+.info-container {
+   display: flex;
+   justify-content: center;
+}
+
+.info {
+   display: flex;
+   justify-content: space-between;
+   height: 120px;
+}
+
+.info-header {
+   color: #1F2937;
+   font-size: 36px;
+   font-weight: 900;
+   padding-top: 40px;
+}
+
+.image-grid-container {
+   display: flex;
+   justify-content: center;
+}
+ 
+.image-grid {
+   width: 1000px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+}
+ 
+.image-grid-item {
+   border: 1px solid #fff;
+   width: 200px;
+   height: 200px;
+   text-align: center;
+   padding: 20px;
+}
+
+.image {
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
 }
