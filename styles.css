@@ -12,7 +12,7 @@ body {
 
 .header {
    width: 1200px;
-   height: 30px;
+   height: 100px;
    display: flex;
    justify-content: space-between;
 }
@@ -35,6 +35,7 @@ body {
    background-color: #1F2937;
    display: flex;
    justify-content: center;
+   
 }
 
 .hero {
@@ -43,18 +44,26 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   flex-direction: row;
 }
 
 .hero-main {
    font-size: 48px;
    font-weight: 900;
    color: #F9FAF8;
+   padding-top: 50px;
 }
 
 .hero-secondary {
    font-size: 18px;
    color: #E5E7EB;
+   padding: 10px 0;
 }
+
+button {
+   padding: 8px 16px;
+   border-radius: 8px;
+ }
 
 .signup {
    color: #E5E7EB;
@@ -62,9 +71,19 @@ body {
 }
 
 .banner {
-   
+   padding: 100px;
 }
 
 .banner-image {
-   width: 600px;
+   width: 500px;
+}
+
+.col-one {
+   width: 40%;
+   align-self: flex-start;
+}
+
+.col-two {
+   width: 60%;
+   margin-right: -120px;
 }
