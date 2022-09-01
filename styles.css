@@ -1,5 +1,5 @@
 body {
-   font-family: Roboto;
+   font-family: Roboto, sans-serif;
 }
 
 .header-container {
@@ -44,6 +44,7 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
+   flex-wrap: wrap;
    flex-direction: row;
 }
 
@@ -63,12 +64,13 @@ body {
 button {
    padding: 8px 16px;
    border-radius: 8px;
-   border: none;
+   
  }
 
 .signup {
    color: #E5E7EB;
    background-color: #3882F6;
+   border: none;
 }
 
 .banner {
@@ -168,3 +170,73 @@ button {
    font-weight: 600;
 }
 
+.cta-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.cta {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 1000px;
+   min-height: 160px;
+   background-color: #3882F6;
+   border-radius: 8px;
+   border: none;
+   padding: 10px;
+   margin: 100px 10px;
+   flex-direction: row;
+}
+
+.cta-col1 {
+   margin-right: auto;
+   padding-left: 120px;
+}
+
+.cta-col2 {
+   margin-left: auto;
+   padding-right: 120px;
+}
+
+.cta-header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 28px;
+   font-weight: 700;
+   margin-bottom: 4px;
+   color: #E5E7EB;
+}
+
+.cta-text {
+   color: #E5E7EB;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 18px;
+}
+
+.cta-button {
+   color: #E5E7EB;
+   background-color: #3882F6;
+   border-radius: 8px;
+   border: 2px solid #E5E7EB;
+   font-size: 18px;
+   font-weight: 700;
+   padding: 6px 32px;
+}
+
+.footer {
+   background-color: #1F2937;
+   color: #F9FAF8;
+   display: flex;
+   justify-content: center;
+   height: 100px;
+}
+
+.footer-text {
+   font-size: 18px;
+   padding: 40px;
+}
